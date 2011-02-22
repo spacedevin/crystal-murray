@@ -1,15 +1,19 @@
-body, html, td, tr, p, h1, h2, h3, h4, div {
+body, html, td, tr, p, h1, h2, h3, h4, h5, div {
 	padding: 0;
 	margin: 0;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
 	font-weight: normal;
 }
 
 a {
 	text-decoration: none;
 	color: #333;
+}
+
+p {
+	text-align: justify;
 }
 
 body {
@@ -26,6 +30,7 @@ body {
 	font-size: 40px;
 	font-weight: bold;
 	text-shadow: #fff 1px 1px 1px;
+	margin-bottom: 10px;
 }
 
 .content.top h2 {
@@ -35,6 +40,57 @@ body {
 .content.top .container {
 	min-height: 387px;
 }
+
+.content.bottom h1 {
+	font-weight: bold;
+	font-size: 32px;
+	text-shadow: #cef2ff 1px 1px 1px;
+	margin-bottom: 20px;
+}
+
+.content.bottom h2 {
+	font-size: 23px;
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+.content.bottom h3 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #404e54;
+}
+
+.content.bottom h4 {
+	font-size: 14px;
+	color: #5f747c;
+	margin-bottom: 5px;
+}
+
+.content.bottom h5 {
+	font-size: 16px;
+	margin-bottom: 12px;
+	color: #404e54;
+}
+
+.experience p {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.experience {
+	margin-bottom: 40px;
+	padding-bottom: 35px;
+	border-bottom: 1px solid #83bfd6;
+}
+
+.content.bottom .left {
+	width: 550px;
+}
+
+.content.bottom .right {
+	width: 400px;
+}
+
 
 .content.middle {
 	background: url(/assets/images/waves.png) repeat-x;
@@ -49,7 +105,7 @@ body {
 .welcome {
 	width: 450px;
 	float: right;
-	padding: 170px 50px 0 0;
+	padding: 180px 50px 0 0;
 }
 
 .cloud-small {
@@ -67,19 +123,19 @@ body {
 	background: url(/assets/images/cloud-large.png) no-repeat;
 	float: left;
 	text-align: center;
-	margin: -85px 0 0 20px;
+	margin: -85px 0 0 200px;
 }
 
 .cloud-small-resume {
-	margin: 50px 0 0 20px;
+	margin: 30px 0 0 60px;
 }
 
 .cloud-small-linkedin {
-	margin: 0 0 0 20px;
+	margin: -20px 0 0 20px;
 }
 
 .nav {
-	position: fixed;
+	position: absolute;
 	margin-top: 4px;
 	float: right;
 	z-index: 1;
@@ -93,11 +149,34 @@ body {
 }
 
 .crystal {
-	position: fixed;
+	position: absolute;
 	height: 330px;
 	width: 238px;
 	background: url(/assets/images/crystal.png) no-repeat;
 	float: left;
 	margin-left: 150px;
 	z-index: 2;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.footer {
+	text-align:center;
+	margin: 150px 0 25px 0;
+}
+
+.footer a {
+	font-size: 30px;
+	color: #83bfd6;
+	font-weight: bold;
+}
+
+.divider {
+	clear: both;
 }
