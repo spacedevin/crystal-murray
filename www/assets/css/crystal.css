@@ -1,0 +1,103 @@
+body, html, td, tr, p, h1, h2, h3, h4, div {
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4 {
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+body {
+	background:#a5ddf2;
+	font: 12px Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+	color: #333;
+}
+
+.content.top {
+	background: #f2efe5;
+}
+
+.content.top h1 {
+	font-size: 40px;
+	font-weight: bold;
+	text-shadow: #fff 1px 1px 1px;
+}
+
+.content.top h2 {
+	font-size: 23px;
+}
+
+.content.top .container {
+	min-height: 387px;
+}
+
+.content.middle {
+	background: url(/assets/images/waves.png) repeat-x;
+	height: 77px;
+}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.welcome {
+	width: 450px;
+	float: right;
+	padding: 170px 50px 0 0;
+}
+
+.cloud-small {
+	height: 113px;
+	width: 181px;
+	background: url(/assets/images/cloud-small.png) no-repeat;
+	padding: 35px 0 0 0;
+	float: left;
+	text-align: center;
+}
+
+.cloud-large {
+	height: 185px;
+	width: 296px;
+	background: url(/assets/images/cloud-large.png) no-repeat;
+	float: left;
+	text-align: center;
+	margin: -85px 0 0 20px;
+}
+
+.cloud-small-resume {
+	margin: 50px 0 0 20px;
+}
+
+.cloud-small-linkedin {
+	margin: 0 0 0 20px;
+}
+
+.nav {
+	position: fixed;
+	margin-top: 4px;
+	float: right;
+	z-index: 1;
+}
+
+.nav h3 a {
+	color: #48819c;
+	font-size: 18px;
+	font-weight: bold;	
+	padding-right: 10px;
+}
+
+.crystal {
+	position: fixed;
+	height: 330px;
+	width: 238px;
+	background: url(/assets/images/crystal.png) no-repeat;
+	float: left;
+	margin-left: 150px;
+	z-index: 2;
+}
