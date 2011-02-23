@@ -1,3 +1,27 @@
+@font-face {
+    font-family: 'Helvetica Neues';
+    src: url('/assets/fonts/helveticaneueltpro-bd-webfont.eot');
+    src: url('/assets/fonts/helveticaneueltpro-bd-webfont.eot?iefix') format('eot'),
+         url('/assets/fonts/helveticaneueltpro-bd-webfont.woff') format('woff'),
+         url('/assets/fonts/helveticaneueltpro-bd-webfont.ttf') format('truetype'),
+         url('/assets/fonts/helveticaneueltpro-bd-webfont.svg#webfont3m3HOsG0') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Helvetica Neues';
+    src: url('/assets/fonts/helveticaneueltpro-roman-webfont.eot');
+    src: url('/assets/fonts/helveticaneueltpro-roman-webfont.eot?iefix') format('eot'),
+         url('/assets/fonts/helveticaneueltpro-roman-webfont.woff') format('woff'),
+         url('/assets/fonts/helveticaneueltpro-roman-webfont.ttf') format('truetype'),
+         url('/assets/fonts/helveticaneueltpro-roman-webfont.svg#webfontf52l9gQ7') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body, html, td, tr, p, h1, h2, h3, h4, h5, div {
 	padding: 0;
 	margin: 0;
@@ -18,7 +42,7 @@ p {
 
 body {
 	background:#a5ddf2;
-	font: 12px Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+	font: 12px "Helvetica Neues" , Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
 	color: #333;
 }
 
