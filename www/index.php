@@ -32,7 +32,7 @@
 		<div class="nav">
 			<div class="cloud-large"></div>
 			<div class="cloud-small cloud-small-resume">
-				<h3><a href="/Crystal-Murray_Resume_<?=date('Y-m-d')?>.doc">Resume</a></h3>
+				<h3><a href="/Crystal-Murray_Resume_<?=date('Y-m-d')?>.doc">R&eacute;sum&eacute;</a></h3>
 			</div>
 			<div class="cloud-small cloud-small-linkedin">
 				<h3><a href="http://www.linkedin.com/in/crystalmurray" target="_blank">LinkedIn</a></h3>
