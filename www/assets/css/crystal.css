@@ -83,6 +83,10 @@ body {
 	border-bottom: 1px solid #83bfd6;
 }
 
+.content.bottom {
+	padding-top: 50px;
+}
+
 .content.bottom .left {
 	width: 550px;
 }
@@ -90,7 +94,6 @@ body {
 .content.bottom .right {
 	width: 400px;
 }
-
 
 .content.middle {
 	background: url(/assets/images/waves.png) repeat-x;
@@ -154,8 +157,26 @@ body {
 	width: 238px;
 	background: url(/assets/images/crystal.png) no-repeat;
 	float: left;
-	margin-left: 150px;
+	margin-left: 190px;
+	z-index: 3;
+}
+
+.island {
+	position: absolute;
+	height: 708px;
+	width: 615px;
+	background: url(/assets/images/island.png) no-repeat;
+	float: left;
+	margin: -170px 0 0 -200px;
 	z-index: 2;
+}
+
+.octopus {
+	height: 139px;
+	width: 143px;
+	background: url(/assets/images/octopus.png) no-repeat;
+	float: right;
+	margin: 0 100px 10px 0;
 }
 
 .left {
@@ -166,14 +187,19 @@ body {
 	float: right;
 }
 
+.container-footer {
+	background: url(/assets/images/dirt.png) repeat-x bottom;
+}
+
 .footer {
-	text-align:center;
-	margin: 150px 0 25px 0;
+	float: left;
+	margin: 105px 0 0 0;
+	color: #fecd93;
 }
 
 .footer a {
 	font-size: 30px;
-	color: #83bfd6;
+	color: #fecd93;
 	font-weight: bold;
 }
 

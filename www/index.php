@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+<?
+	if ($_SERVER['HTTP_HOST'] != 'crystalmurray.com' && $_SERVER['HTTP_HOST'] != 'localhost') {
+		header('Location: http://crystalmurray.com');
+		exit;
+	}
+?><!DOCTYPE html>
 <html lang="en">
 <head>
 <title>Crystal Murray</title>
@@ -34,6 +39,7 @@
 <div class="content top">
 	<div class="container">
 		<div class="crystal"></div>
+		<div class="island"></div>
 		<div class="welcome">
 			<?
 				$bday = new DateTime('1985/02/10');
@@ -100,9 +106,14 @@
 		</div>
 	</div>
 </div>
+
 <div class="divider"></div>
-<div class="container">
-	<div class="footer"><a href="http://devin.la" target="_blank">devin.la</a></div>
+<div class="container-footer">
+	<div class="container">
+		<div class="octopus"></div>
+		<div class="footer">by <a href="http://devin.la" target="_blank">devin.la</a></div>
+		<div class="divider"></div>
+	</div>
 </div>
 </body>
 </html>
