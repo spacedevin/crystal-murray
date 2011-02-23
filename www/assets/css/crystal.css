@@ -1,25 +1,23 @@
 @font-face {
-    font-family: 'Crystal Murray';
-    src: url('/assets/fonts/hn-crystal-murray-bold.eot');
-    src: url('/assets/fonts/hn-crystal-murray-bold.eot?iefix') format('eot'),
-         url('/assets/fonts/hn-crystal-murray-bold.woff') format('woff'),
-         url('/assets/fonts/hn-crystal-murray-bold.ttf') format('truetype'),
-         url('/assets/fonts/hn-crystal-murray-bold.svg#webfont3m3HOsG0') format('svg');
-    font-weight: bold;
-    font-style: normal;
-
+	font-family: 'Crystal Murray';
+	src: url('/assets/fonts/hn-crystal-murray-bold.eot');
+	src: url('/assets/fonts/hn-crystal-murray-bold.eot?iefix') format('eot'),
+		url('/assets/fonts/hn-crystal-murray-bold.woff') format('woff'),
+		url('/assets/fonts/hn-crystal-murray-bold.ttf') format('truetype'),
+		url('/assets/fonts/hn-crystal-murray-bold.svg#webfont3m3HOsG0') format('svg');
+	font-weight: bold;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Crystal Murray';
-    src: url('/assets/fonts/hn-crystal-murray-regular.eot');
+	font-family: 'Crystal Murray';
+	src: url('/assets/fonts/hn-crystal-murray-regular.eot');
     src: url('/assets/fonts/hn-crystal-murray-regular.eot?iefix') format('eot'),
-         url('/assets/fonts/hn-crystal-murray-regular.woff') format('woff'),
-         url('/assets/fonts/hn-crystal-murray-regular.ttf') format('truetype'),
-         url('/assets/fonts/hn-crystal-murray-regular.svg#webfontf52l9gQ7') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+		url('/assets/fonts/hn-crystal-murray-regular.woff') format('woff'),
+		url('/assets/fonts/hn-crystal-murray-regular.ttf') format('truetype'),
+		url('/assets/fonts/hn-crystal-murray-regular.svg#webfontf52l9gQ7') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 body, html, td, tr, p, h1, h2, h3, h4, h5, div {
@@ -44,6 +42,8 @@ body {
 	background:#a5ddf2;
 	font: 12px "Crystal Murray", Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
 	color: #333;
+	font-style: normal;
+	font-weight: normal;
 }
 
 .content.top {
@@ -173,6 +173,11 @@ body {
 	font-size: 18px;
 	font-weight: bold;	
 	padding-right: 10px;
+}
+
+.nav h3 {
+	-webkit-transform: rotate(-5deg); 
+	-moz-transform: rotate(-5deg);
 }
 
 .crystal {

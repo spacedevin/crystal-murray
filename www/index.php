@@ -3,6 +3,11 @@
 		header('Location: http://crystalmurray.com');
 		exit;
 	}
+
+	if (strpos($_SERVER['REQUEST_URI'],'Crystal-Murray_Resume')) {
+		die('Sorry! the resume export isnt finished yet!');
+	}
+
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
