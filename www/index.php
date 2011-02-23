@@ -16,7 +16,7 @@
 <meta name="robots" content="index,follow">
 <meta name="author" content="Devin Smith">
 <meta name="keywords" content="crystal, murray, public, relations, specialist, resume, marketing, atlus, naruto, deamons souls, video, game">
-<meta name="description" content="Why, hello there! I'm a 26 year old Public Relations Specialist living in Los Angeles California.">
+<meta name="description" content="Why, hello there! I'm a 26 year old Public Relations Specialist living in Los Angeles, California.">
 <meta name="editor" content="Devin Smith">
 <link rel="apple-touch-icon-precomposed" href="/assets/images/favicon.png">
 <link rel="shortcut icon" href="/assets/images/favicon.png">
@@ -115,7 +115,7 @@
 <div class="container-footer">
 	<div class="container">
 		<div class="octopus"></div>
-		<div class="footer">by <a href="http://devin.la" target="_blank">devin.la</a></div>
+		<div class="footer">by <a href="http://devin.la/" target="_blank">devin.la</a></div>
 		<div class="divider"></div>
 	</div>
 </div>
