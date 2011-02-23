@@ -19,7 +19,6 @@
 <meta name="description" content="Why, hello there! I'm a 26 year old Public Relations Specialist living in Los Angeles California.">
 <meta name="editor" content="Devin Smith">
 <link rel="apple-touch-icon-precomposed" href="/assets/images/favicon.png">
-<link rel="shortcut icon" href="/assets/images/favicon.png">
 <link rel="shortcut icon" href="/favicon.ico">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
