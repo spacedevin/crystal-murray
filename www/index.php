@@ -11,57 +11,69 @@
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Crystal Murray</title>
-
-<meta name="robots" content="index,follow">
-<meta name="author" content="Devin Smith">
-<meta name="keywords" content="crystal, murray, public, relations, specialist, resume, marketing, atlus, naruto, deamons souls, video, game">
-<meta name="description" content="Why, hello there! I'm a 26 year old Public Relations Specialist living in Los Angeles, California.">
-<meta name="editor" content="Devin Smith">
-<link rel="apple-touch-icon-precomposed" href="/assets/images/favicon.png">
-<link rel="shortcut icon" href="/assets/images/favicon.png">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-<link rel="stylesheet" type="text/css" href="/assets/css/crystal.css">
+	<title>Crystal Murray</title>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="robots" content="index,follow">
+	<meta name="author" content="Devin Smith">
+	<meta name="keywords" content="crystal, murray, public, relations, specialist, resume, marketing, atlus, naruto, deamons souls, video, game">
+	<meta name="description" content="Public Relations // Social Media // Marketing">
+	<meta name="editor" content="Devin Smith">
+	
+	<meta property="og:title" content="Crystal Murray">
+	<meta property="og:type" content="company">
+	<meta property="og:url" content="http://crystalmurray.com/">
+	<meta property="og:site_name" content="Crystal Murray">
+	<meta property="og:image" content="http://crystalmurray.com/assets/images/crystal-murray-share.png">
+	<meta property="fb:app_id" content="218098398219031">
+	<meta property="og:description" content="Public Relations // Social Media // Marketing">
+	
+	<link rel="apple-touch-icon-precomposed" href="/assets/images/favicon.png">
+	<link rel="shortcut icon" href="/assets/images/favicon.png">
+	
+	<link rel="stylesheet" type="text/css" href="/assets/css/crystal.css">
+</head>
 
 <body>
 
 <div class="container">
-	<div style="width: 600px; height: 1%;">
-		<div class="nav">
-			<div class="cloud-large"></div>
-			<div class="cloud-small cloud-small-resume">
-				<h3><a href="/Crystal-Murray_Resume_<?=date('Y-m-d')?>.doc">R&eacute;sum&eacute;</a></h3>
-			</div>
-			<div class="cloud-small cloud-small-linkedin">
-				<h3><a href="http://www.linkedin.com/in/crystalmurray" target="_blank">LinkedIn</a></h3>
-			</div>
-		</div>
 
-	</div>
 </div>
 <div class="content top">
 	<div class="container">
 		<div class="crystal"></div>
-		<div class="island"></div>
 		<div class="welcome">
-			<?
-				$bday = new DateTime('1985/02/10');
-			?>
-			<h1>Why, hello there!</h1>
-			<h2>I'm <b>Crystal Murray</b>, a <?=$bday->diff(new DateTime)->format('%y')?> year old Public Relations Specialist living in Los Angeles, California.</h2>
+			<div class="nav">
+				<a href="/bio">Bio</a>
+				<a href="/bio">Resume</a>
+				<a href="/bio">Portfolio</a>
+				<a href="/bio">Contact</a>
+				<a href="/bio">Linkedin</a>
+			</div>
+			<div class="intro">
+				<h1 class="hide"><span>Crystal Murray</span><img src="/assets/images/crystal-murray.png" alt="Crystal Murray"></h1>
+				<h2>Public Relations <span class="separate">//</span> Social Media <span class="separate">//</span> Marketing</h2>
+			</div>
 		</div>
 	</div>
-	<div class="content middle"></div>
 </div>
-<div class="content bottom">
+<div class="divider"></div>
+<div class="content middle">
 	<div class="container">
-		<div class="left">
+		<div class="header">
+			<div class="left"><h3>Resume</h3></div>
+			<a href="/resume">
+				<div class="right" style="padding-top: 4px;">Download</div>
+				<div class="right" style="padding: 5px 7px 0 0;"><img src="/assets/images/icon-download.png"></div>
+			</a>
+			<div class="divider"></div>
+		</div>
+		<div class="content wrap">
 			<h1>My experience</h1>
 			<div class="experience">
-				<h2>Public Relations Specialist</h2>
-				<h3>Atlus U.S.A., Inc.</h3>
-				<h4>Privately Held; Computer Games industry</h4>
+				<h4>Public Relations Specialist</h4>
+				<h5>Atlus U.S.A., Inc.</h5>
+				Privately Held; Computer Games industry
 				<?
 					$start = new DateTime('2009/01/01');
 				?>
@@ -104,14 +116,6 @@
 					As an intern at Gonzo Communications I assisted in drafting and distributing press releases, media alerts, calendar listings, press lists and press kits for clients in the video game, toy, and non-profit industries. I also had the opportunity to attend and assist in PR for an event for a client in the video game industry.
 				</p>
 			</div>
-		</div>
-		<div class="right">
-			<h1>My work</h1>
-			<div class="experience">
-				<h2>Interview with Game Trailers for 3D Dot Game Heroes</h2>
-				<embed width="450" height="275" src="http://media.mtvnservices.com/mgid:moses:video:gametrailers.com:63982" quality="high" bgcolor="000000" name="efp" align="middle" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"  flashvars="autoPlay=false"  allowfullscreen="true"></embed>
-			</div>
-			
 		</div>
 	</div>
 </div>

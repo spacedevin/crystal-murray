@@ -1,21 +1,10 @@
 @font-face {
-	font-family: 'Crystal Murray';
-	src: url('/assets/fonts/hn-crystal-murray-bold.eot');
-	src: url('/assets/fonts/hn-crystal-murray-bold.eot?iefix') format('eot'),
-		url('/assets/fonts/hn-crystal-murray-bold.woff') format('woff'),
-		url('/assets/fonts/hn-crystal-murray-bold.ttf') format('truetype'),
-		url('/assets/fonts/hn-crystal-murray-bold.svg#webfont3m3HOsG0') format('svg');
-	font-weight: bold;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Crystal Murray';
-	src: url('/assets/fonts/hn-crystal-murray-regular.eot');
-    src: url('/assets/fonts/hn-crystal-murray-regular.eot?iefix') format('eot'),
-		url('/assets/fonts/hn-crystal-murray-regular.woff') format('woff'),
-		url('/assets/fonts/hn-crystal-murray-regular.ttf') format('truetype'),
-		url('/assets/fonts/hn-crystal-murray-regular.svg#webfontf52l9gQ7') format('svg');
+	font-family: 'ChunkFive';
+	src: url('/assets/fonts/Chunkfive-webfont.eot');
+	src: url('/assets/fonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+		url('/assets/fonts/Chunkfive-webfont.woff') format('woff'),
+		url('/assets/fonts/Chunkfive-webfont.ttf') format('truetype'),
+		url('/assets/fonts/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -31,7 +20,7 @@ h1, h2, h3, h4, h5 {
 
 a {
 	text-decoration: none;
-	color: #333;
+	color: #fff;
 }
 
 p {
@@ -39,63 +28,32 @@ p {
 }
 
 body {
-	background:#a5ddf2;
-	font: 12px "Crystal Murray", Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+	background: #fff url(/assets/images/bg-pink-paint.jpg) top center no-repeat;
+	font: 15px Trebuchet MS, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
 	color: #333;
 	font-style: normal;
 	font-weight: normal;
 }
 
-
-.content.top {
-	min-width: 1024px;
-	background: #f2efe5;
+.hide span {
+	display: none;
 }
 
-.content.top h1 {
-	font-size: 40px;
-	font-weight: bold;
-	text-shadow: #fff 1px 1px 1px;
-	margin-bottom: 10px;
+.header {
+	background: #222;
+	padding: 29px 29px 21px 29px;
+	color: #fff;
+	text-shadow: #000 1px 1px 1px;
+	margin: 20px 0 13px 0;
 }
 
-.content.top h2 {
-	font-size: 23px;
+.header h3 {
+	font: 30px ChunkFive, Impact, Trebuchet MS, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
 }
 
-.content.top .container {
-	min-height: 387px;
-}
-
-.content.bottom h1 {
-	font-weight: bold;
-	font-size: 32px;
-	text-shadow: #cef2ff 1px 1px 1px;
-	margin-bottom: 20px;
-}
-
-.content.bottom h2 {
-	font-size: 23px;
-	margin-bottom: 8px;
-	font-weight: bold;
-}
-
-.content.bottom h3 {
-	font-size: 18px;
-	font-weight: bold;
-	color: #404e54;
-}
-
-.content.bottom h4 {
-	font-size: 14px;
-	color: #5f747c;
-	margin-bottom: 5px;
-}
-
-.content.bottom h5 {
-	font-size: 16px;
-	margin-bottom: 12px;
-	color: #404e54;
+.content .wrap {
+	background: #fff;
+	padding: 17px;
 }
 
 .experience p {
@@ -109,25 +67,12 @@ body {
 	border-bottom: 1px solid #83bfd6;
 }
 
-.content.bottom {
-	padding-top: 50px;
-}
-
-.content.bottom .left {
-	width: 550px;
-}
-
-.content.bottom .right {
-	width: 400px;
-}
-
 .content.middle {
-	background: url(/assets/images/waves.png) repeat-x;
-	height: 77px;
+	padding-top: 120px;
 }
 
 .container {
-	width: 1024px;
+	width: 715px;
 	margin: 0 auto;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -136,80 +81,40 @@ body {
 .welcome {
 	width: 450px;
 	float: right;
-	padding: 180px 50px 0 0;
 }
 
-.cloud-small {
-	height: 113px;
-	width: 181px;
-	background: url(/assets/images/cloud-small.png) no-repeat;
+.intro {
 	padding: 35px 0 0 0;
-	float: left;
-	text-align: center;
+	text-align: right;
 }
 
-.cloud-large {
-	height: 185px;
-	width: 296px;
-	background: url(/assets/images/cloud-large.png) no-repeat;
-	float: left;
-	text-align: center;
-	margin: -85px 0 0 200px;
+.nav  {
+	text-align: right;
+	padding-top: 20px;
+}
+.nav a {
+	font-size: 15px;
+	color: #cd3b7e;
+	margin-left: 27px;
 }
 
-.cloud-small-resume {
-	margin: 30px 0 0 60px;
+.separate {
+	color: #cec9bd;
 }
 
-.cloud-small-linkedin {
-	margin: -20px 0 0 20px;
-}
-
-.nav {
-	position: absolute;
-	margin-top: 4px;
-	float: right;
-	z-index: 1;
-}
-
-.nav h3 a {
-	color: #48819c;
-	font-size: 18px;
-	font-weight: bold;	
-	padding-right: 10px;
-}
-
-.nav h3 {
-	-webkit-transform: rotate(-5deg); 
-	-moz-transform: rotate(-5deg);
+.welcome h2 {
+	font-size: 16px;
+	color: #424242;
+	padding-top: 12px;
 }
 
 .crystal {
 	position: absolute;
-	height: 330px;
-	width: 238px;
+	height: 326px;
+	width: 327px;
 	background: url(/assets/images/crystal.png) no-repeat;
 	float: left;
-	margin-left: 190px;
 	z-index: 3;
-}
-
-.island {
-	position: absolute;
-	height: 708px;
-	width: 615px;
-	background: url(/assets/images/island.png) no-repeat;
-	float: left;
-	margin: -170px 0 0 -200px;
-	z-index: 2;
-}
-
-.octopus {
-	height: 139px;
-	width: 143px;
-	background: url(/assets/images/octopus.png) no-repeat;
-	float: right;
-	margin: 0 100px 10px 0;
 }
 
 .left {
@@ -218,22 +123,6 @@ body {
 
 .right {
 	float: right;
-}
-
-.container-footer {
-	background: url(/assets/images/dirt.png) repeat-x bottom;
-}
-
-.footer {
-	float: left;
-	margin: 105px 0 0 0;
-	color: #fecd93;
-}
-
-.footer a {
-	font-size: 30px;
-	color: #fecd93;
-	font-weight: bold;
 }
 
 .divider {
