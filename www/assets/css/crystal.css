@@ -46,7 +46,9 @@ body {
 	font-weight: normal;
 }
 
+
 .content.top {
+	min-width: 1024px;
 	background: #f2efe5;
 }
 

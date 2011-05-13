@@ -1,5 +1,5 @@
 <?
-	if ($_SERVER['HTTP_HOST'] != 'crystalmurray.com' && $_SERVER['HTTP_HOST'] != 'localhost') {
+	if ($_SERVER['HTTP_HOST'] != 'crystalmurray.com' && $_SERVER['HTTP_HOST'] != 'crystal.localhost') {
 		header('Location: http://crystalmurray.com');
 		exit;
 	}
@@ -107,6 +107,11 @@
 		</div>
 		<div class="right">
 			<h1>My work</h1>
+			<div class="experience">
+				<h2>Interview with Game Trailers for 3D Dot Game Heroes</h2>
+				<embed width="450" height="275" src="http://media.mtvnservices.com/mgid:moses:video:gametrailers.com:63982" quality="high" bgcolor="000000" name="efp" align="middle" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"  flashvars="autoPlay=false"  allowfullscreen="true"></embed>
+			</div>
+			
 		</div>
 	</div>
 </div>
