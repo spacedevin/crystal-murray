@@ -7,7 +7,7 @@ $(function() {
 
 		}
 	}
-	$('.nav a').click(function(e) {
+	$('.nav-local').click(function(e) {
 		e.preventDefault();
 		loc = $(this).attr('href').replace('#','');
 		$.scrollTo($('a[name=' + loc +']').get(0), 300, {easing:'easeOutQuart'} );

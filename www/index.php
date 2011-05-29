@@ -50,11 +50,10 @@
 		<div class="crystal"></div>
 		<div class="welcome">
 			<div class="nav">
-				<a href="#bio">Bio</a>
-				<a href="#resume">Resume</a>
-				<a href="#portfolio">Portfolio</a>
-				<a href="#contact">Contact</a>
-				<a href="http://linkedin.com/in/crystalmurray" traget="_blank">Linkedin</a>
+				<a href="#bio" class="nav-local">Bio</a>
+				<a href="#resume" class="nav-local">Resume</a>
+				<a href="#contact" class="nav-local">Contact</a>
+				<a href="http://linkedin.com/in/crystalmurray" target="_blank">Linkedin</a>
 			</div>
 			<div class="intro">
 				<h1 class="hide"><span>Crystal Murray</span><img src="/assets/images/crystal-murray.png" alt="Crystal Murray"></h1>
@@ -72,7 +71,13 @@
 			<div class="divider"></div>
 		</div>
 		<div class="content-body">
-			Graduating with honors and with 4 years of PR experience, Crystal is a fabulous choice for anyone looking for PR.
+			<p>
+				Hello there! I'm Crystal Murray, Public Relations Specialist currently living in Los Angeles, CA. 
+				<br /> <br />
+				Before putting myself through college (thank you Ruby's Diner!), I completed two internships in the PR/Marketing field at fast-paced agencies. After graduating with honors, I wanted to gain as much experience as possible, so I stayed with Madeline Zuckerman Public Relations & Marketing, Inc. with diverse clientele and assisted in PR efforts for non-profits, country clubs, events, a veterinary group, and more. Eager to experience both agency life and being part of an in-house team, I joined Atlus U.S.A., Inc. (currently Index Digital Media, Inc.) as PR Specialist and assist in the video game publisher's PR efforts for the award winning ATLUS brand of video games. 
+				<br /> <br /> 
+				As an active member on Facebook and Twitter, I have an interest in social media marketing and do my best to follow the trends. It's imperative to continue to learn new skills that can be applied to any industry, so I'm currently learning more about HTML and Photoshop. As I continue to develop my professional career, I stay connected with my PR, marketing and press friends. Feel free to get in touch with me! 
+			</p>
 		</div>
 		<a name="resume"></a>
 		<div class="header">
@@ -84,13 +89,13 @@
 			<div class="divider"></div>
 		</div>
 		<div class="content-body">
-			<div class="title">My experience</div>
+			<div class="title">Experience</div>
 			<div class="divider-title"></div>
 			<div class="experience">
 				<h2>Public Relations Specialist</h2>
 				<h4>Index Digital Media, Inc., Irvine, CA (Formerly Atlus U.S.A., Inc.)</h4>
 				<? $start = new DateTime('2009/01/01'); ?>
-				<div class="date">Jan 2009 &mdash; Present (<?=$start->diff(new DateTime)->format('%y years, %m months')?>)</div>
+				<div class="date">January 2009 &mdash; Present (<?=$start->diff(new DateTime)->format('%y years, %m months')?>)</div>
 				<p>
 					As a part of the Marketing team, and a two-person Public Relations team, I assist in all PR efforts for the video game publisher's games.
 					<br />
@@ -111,35 +116,52 @@
 
 			<div class="experience">
 				<h2>Account Coordinator</h2>
-				<h3>Madeline Zuckerman Public Relations & Marketing, Inc.</h3>
-				<h4>Public Relations and Communications industry</h4>
-				<h5>February 2008 &mdash; October 2008 (9 months)</h5>
-				<p>
-					I assisted in the drafting and development of press releases, media alerts, calendar listings, photo captions, media pitches and distributed them to local, regional and national media including online, print, TV and radio; secured significant pre- and post event coverage of events and client news from local media outlets; attended and assisted in coordinating PR for galas, grand openings, and other special events; conducted research on media opportunities and speaking engagements for clients; maintained direct contact with clients via email and conference calls to secure details and approval on all information distributed to the media; tracked clips; maintained media lists and portfolios.
-				</p>
+				<h4>Madeline Zuckerman Public Relations & Marketing, Inc.</h4>
+				<div class="date">February 2008 &mdash; October 2008 (9 months)</div>
+				<ul>
+					<li>Assisted in the drafting and development of press releases, media alerts, calendar listings, photo captions, and media pitches and helped to distribute them to local, regional and national media including online, print, TV and radio</li>
+					<li>Conducted follow up to secure stories</li>
+					<li>Secured significant pre and post-event coverage of events and client news</li>
+					<li>Attended and assisted in coordinating PR for gala’s, grand openings, and other special events</li>
+					<li>Conducted research on media opportunities and speaking engagements for clients</li>
+					<li>Maintained contact with clients via email and conference calls to secure details and approvals</li>
+					<li>Built positive relationships with media</li>
+					<li>Calculated and reported advertising value of media coverage</li>
+					<li>Maintained media lists and portfolios</li>
+				</ul>
+
 			</div>
 
-			<div class="experience">
-				<h2>Server; Certified Trainer</h2>
-				<h3>Rubys Diner</h3>
-				<h4>Restaurants industry</h4>
-				<h5>August 2004 &mdash; June 2008 (3 years 11 months)</h5>
-				<p>
-					I became a server soon after I started at Ruby's Diner and it was a great company to work for while I was going through school and completing my internships.
-					<br /><br />
-					Try their Pumpkin shake around Thanksgiving time. It's delish!
-				</p>
-			</div>
-
-			<div class="experience">
+			<div class="experience no-break">
 				<h2>Intern</h2>
-				<h3>Gonzo Communications</h3>
-				<h4>Public Relations and Communications industry</h4>
-				<h5>September 2007 &mdash; December 2007 (4 months)</h5>
+				<h4>Gonzo Communications</h4>
+				<div class="date">September 2007 &mdash; December 2007 (4 months)</div>
+				<ul>
+					<li>Attended and assisted with a launch event for a client in New York</li>
+					<li>Drafted press releases, media alerts and fact sheets</li>
+					<li>Compiled press kits</li>
+					<li>Updated media contacts</li>
+					<li>Reported media clips</li>
+				</ul>
+			</div>
+			
+			<div class="title">Programs, Services and Additional Skills</div>
+			<div class="divider-title"></div>
+			<div class="experience no-break">
 				<p>
-					As an intern at Gonzo Communications I assisted in drafting and distributing press releases, media alerts, calendar listings, press lists and press kits for clients in the video game, toy, and non-profit industries. I also had the opportunity to attend and assist in PR for an event for a client in the video game industry.
+					ACT! Database, Photoshop, Constant Contact, Cision Media Source, PR Newswire, Virtual Press Office, Wildfire (for Facebook promotions), HTML, FBML
 				</p>
 			</div>
+			
+			<div class="title">Education</div>
+			<div class="divider-title"></div>
+			<div class="experience no-break">
+				<p>
+					<b>California State University, Fullerton</b>  Bachelor of Arts Degree in Communications, Public Relations
+					<b>Honors & Affiliations</b>:  Public Relations Student Society of America (PRSSA), National Honors Society
+				</p>
+			</div>
+
 		</div>
 		<a name="contact"></a>
 		<div class="header">
