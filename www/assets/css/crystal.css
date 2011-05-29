@@ -27,9 +27,26 @@ p {
 	text-align: justify;
 }
 
+p, li {
+	color: #5f5f5f;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+li:before {
+    content: "\2665 \00a0 \00a0 ";
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 1.2em;
+}
+
 body {
-	background: #fff url(/assets/images/bg-pink-paint.jpg) top center no-repeat;
+	background: #faf4f6 url(/assets/images/bg-pink-paint.jpg) repeat-y;
 	font: 15px Trebuchet MS, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+	background-position: center -360px;
 	color: #333;
 	font-style: normal;
 	font-weight: normal;
@@ -51,20 +68,15 @@ body {
 	font: 30px ChunkFive, Impact, Trebuchet MS, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
 }
 
-.content .wrap {
+.content-body {
 	background: #fff;
 	padding: 17px;
-}
-
-.experience p {
-	font-size: 16px;
-	line-height: 25px;
 }
 
 .experience {
 	margin-bottom: 40px;
 	padding-bottom: 35px;
-	border-bottom: 1px solid #83bfd6;
+	border-bottom: 1px dashed #e3a0b5;
 }
 
 .content.middle {
@@ -108,6 +120,30 @@ body {
 	padding-top: 12px;
 }
 
+.content-body h2 {
+	color: #2f2f2f;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 7px;
+}
+
+.content-body h4 {
+	color: #555;
+	font-size: 16px;
+	margin-bottom: 7px;
+}
+
+.title {
+	color: #2f2f2f;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.divider-title {
+	margin: 12px 0 9px 0;
+	border-bottom: 1px dotted #ccc;
+}
+
 .crystal {
 	position: absolute;
 	height: 326px;
@@ -127,4 +163,31 @@ body {
 
 .divider {
 	clear: both;
+}
+
+.contact-list td, .contact-list th {
+	text-align: left;
+}
+
+.contact-list a {
+	color: #555;
+}
+
+.contact-list th {
+	color: #2f2f2f;
+	font-size: 17px;
+	font-weight: normal;
+	margin-bottom: 7px;
+	padding: 4px 32px 4px 0;
+}
+
+.contact-list td {
+	color: #555;
+	font-size: 17px;
+	margin-bottom: 7px;
+	padding: 4px 4px 4px 0;
+}
+
+.container-footer {
+	padding: 40px 0 25px 0;
 }
