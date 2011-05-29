@@ -20,6 +20,8 @@
 	<meta name="description" content="Public Relations // Social Media // Marketing">
 	<meta name="editor" content="Devin Smith">
 	
+	<meta name="viewport" content="width=700; user-scalable=yes">
+	
 	<meta property="og:title" content="Crystal Murray">
 	<meta property="og:type" content="company">
 	<meta property="og:url" content="http://crystalmurray.com/">
@@ -37,6 +39,7 @@
 	<script type="text/javascript" src="/assets/js/jquery.easing.js"></script>
 	<script type="text/javascript" src="/assets/js/jquery.scrollTo.js"></script>
 	<script type="text/javascript" src="/assets/js/crystal.js"></script>
+	<script type="application/x-javascript">addEventListener('load', function(event) {setTimeout(scrollTo, 80, 0, 1);}, false);</script>
 
 </head>
 
@@ -74,7 +77,7 @@
 			<p>
 				Hello there! I'm Crystal Murray, Public Relations Specialist currently living in Los Angeles, CA. 
 				<br /> <br />
-				Before putting myself through college (thank you Ruby's Diner!), I completed two internships in the PR/Marketing field at fast-paced agencies. After graduating with honors, I wanted to gain as much experience as possible, so I stayed with Madeline Zuckerman Public Relations & Marketing, Inc. with diverse clientele and assisted in PR efforts for non-profits, country clubs, events, a veterinary group, and more. Eager to experience both agency life and being part of an in-house team, I joined Atlus U.S.A., Inc. (currently Index Digital Media, Inc.) as PR Specialist and assist in the video game publisher's PR efforts for the award winning ATLUS brand of video games. 
+				Before putting myself through college (thank you Ruby's Diner!), I completed two internships in the PR/Marketing field at fast-paced agencies. After graduating with honors, I wanted to gain as much experience as possible, so I stayed with <i>Madeline Zuckerman Public Relations & Marketing, Inc.</i> with diverse clientele and assisted in PR efforts for non-profits, country clubs, events, a veterinary group, and more. Eager to experience both agency life and being part of an in-house team, I joined <i>Atlus U.S.A., Inc. (currently Index Digital Media, Inc.)</i> as PR Specialist and assist in the video game publisher's PR efforts for the award winning ATLUS brand of video games. 
 				<br /> <br /> 
 				As an active member on Facebook and Twitter, I have an interest in social media marketing and do my best to follow the trends. It's imperative to continue to learn new skills that can be applied to any industry, so I'm currently learning more about HTML and Photoshop. As I continue to develop my professional career, I stay connected with my PR, marketing and press friends. Feel free to get in touch with me! 
 			</p>
@@ -97,7 +100,7 @@
 				<? $start = new DateTime('2009/01/01'); ?>
 				<div class="date">January 2009 &mdash; Present (<?=$start->diff(new DateTime)->format('%y years, %m months')?>)</div>
 				<p>
-					As a part of the Marketing team, and a two-person Public Relations team, I assist in all PR efforts for the video game publisher's games.
+					As a part of the Marketing and Public Relations team, I assist in all PR efforts for the video game publisher's games.
 					<br />
 				</p>
 				<ul>
@@ -129,7 +132,10 @@
 					<li>Calculated and reported advertising value of media coverage</li>
 					<li>Maintained media lists and portfolios</li>
 				</ul>
-
+				<br />
+				<p>
+					Agency clients: Aliso Viejo Country Club, Bremer Whyte Brown & O'Meara LLP, Girls Incorporated of Orange County, Mission Hills Country Club, Mission San Juan Capistrano, Pacific Symphony Orchestra, Paul Merage's Invest In Children Fund, Philharmonic Society of Orange County, and Veterinary Cancer Group.
+				</p>
 			</div>
 
 			<div class="experience no-break">
@@ -143,6 +149,10 @@
 					<li>Updated media contacts</li>
 					<li>Reported media clips</li>
 				</ul>
+				<br />
+				<p>
+					Agency clients: D3Publisher, Sports Gift, and Tomy.
+				</p>
 			</div>
 			
 			<div class="title">Programs, Services and Additional Skills</div>
@@ -173,7 +183,7 @@
 			<table cellpadding="0" cellspacing="0" class="contact-list">
 				<tr>
 					<th>Email</th>
-					<td>crystal@crystalmurray.com</td>
+					<td id="contact-email"></td>
 				</tr>
 				<tr>
 					<th>Phone</th>

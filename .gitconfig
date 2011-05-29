@@ -1,0 +1,27 @@
+[user]
+	name = arzynik
+	email = github@arzynik.com
+[alias]
+	st = status -s
+	br = branch
+	df = diff
+	lg = log -p
+	tip = log -n 1
+	addremove = !git add . && git ls-files --deleted | xargs --no-run-if-empty git rm
+	up = pull origin master
+	ci = !sh -c 'git add -A && git commit -m \"$0\" && git push origin master'
+[core]
+	excludesfile = /Users/arzynik/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[github]
+	user = arzynik
+	token = 32260693d46f6b2c823a81fae4b3a7e0
+[color]
+	status = auto
+	branch = auto
+	diff = auto
