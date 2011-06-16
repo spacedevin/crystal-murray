@@ -68,7 +68,7 @@
 <div class="divider"></div>
 <div class="content middle">
 	<div class="container">
-		<a name="bio"></a>
+		<a name="bio"><span class="hidden">c</span></a>
 		<div class="header">
 			<div class="left"><h3>Bio</h3></div>
 			<div class="divider"></div>
@@ -82,7 +82,7 @@
 				As an active member on Facebook and Twitter, I have an interest in social media marketing and do my best to follow the trends. It's imperative to continue to learn new skills that can be applied to any industry, so I'm currently learning more about HTML and Photoshop. As I continue to develop my professional career, I stay connected with my PR, marketing and press friends. Feel free to get in touch with me! 
 			</p>
 		</div>
-		<a name="resume"></a>
+		<a name="resume"><span class="hidden">c</span></a>
 		<div class="header">
 			<div class="left"><h3>Resume</h3></div>
 			<a href="/assets/docs/Resume-Crystal_Murray-2011.05.02.doc">
@@ -173,7 +173,7 @@
 			</div>
 
 		</div>
-		<a name="contact"></a>
+		<a name="contact"><span class="hidden">c</span></a>
 		<div class="header">
 			<div class="left"><h3>Contact</h3></div>
 			<div class="divider"></div>
