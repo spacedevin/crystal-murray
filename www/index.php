@@ -7,6 +7,7 @@
 	if (strpos($_SERVER['REQUEST_URI'],'Crystal-Murray_Resume')) {
 		die('Sorry! the resume export isnt finished yet!');
 	}
+	date_default_timezone_set('America/Los_Angeles');
 
 ?><!DOCTYPE html>
 <html lang="en">
@@ -94,11 +95,28 @@
 		<div class="content-body">
 			<div class="title">Experience</div>
 			<div class="divider-title"></div>
+			
+			<div class="experience">
+				<h2>Sr. Public Relations Specialist</h2>
+				<h4>PriceGrabber.com</h4>
+				<? $start = new DateTime('2011/07/01'); ?>
+				<div class="date">July 2011 &mdash; Present (<?=$start->diff(new DateTime)->format('%y years, %m months')?>)</div>
+				<p>
+					At PriceGrabber I assist the PR team in the development and execution of PR plans to generate corporate media awareness. Check out our website, <a href="http://www.pricegrabber.com" target="_blank">pricegrabber.com</a>, and local deals section, <a href="http://deals.pricegrabber.com" target="_blank">deals.pricegrabber.com</a>. 
+					<br /><br />
+					Keep up with PriceGrabber on Facebook & Twitter!<br />
+					<a href="http://www.facebook.com/PriceGrabber" target="_blank">facebook.com/PriceGrabber</a><br />
+					<a href="http://www.twitter.com/PriceGrabber" target="_blank">twitter.com/PriceGrabber</a>
+					
+				</p>
+
+			</div>
+			
 			<div class="experience">
 				<h2>Public Relations Specialist</h2>
 				<h4>Index Digital Media, Inc., Irvine, CA (Formerly Atlus U.S.A., Inc.)</h4>
 				<? $start = new DateTime('2009/01/01'); ?>
-				<div class="date">January 2009 &mdash; Present (<?=$start->diff(new DateTime)->format('%y years, %m months')?>)</div>
+				<div class="date">January 2009 &mdash; July 2011</div>
 				<p>
 					As a part of the Marketing and Public Relations team, I assist in all PR efforts for the video game publisher's games.
 					<br />

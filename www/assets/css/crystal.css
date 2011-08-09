@@ -23,6 +23,10 @@ a {
 	color: #fff;
 }
 
+.experience a {
+	color: #cc4686;
+}
+
 p {
 	text-align: justify;
 }
@@ -206,7 +210,7 @@ body {
 }
 
 .container-footer a {
-	color: #555;
+	color: #fff;
 }
 
 .date {
